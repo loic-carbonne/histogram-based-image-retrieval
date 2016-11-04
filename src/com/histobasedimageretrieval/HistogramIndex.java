@@ -28,10 +28,8 @@ public class HistogramIndex implements Serializable{
 	/**
 	 * Construct an index from a serialized file
 	 * @param fileLocation the serialized file
-	 * @throws IOException when an error occurs when reading the file
-	 * @throws ClassNotFoundException when an error occurs when parsing the class
 	 */
-	HistogramIndex(String fileLocation) throws ClassNotFoundException{
+	HistogramIndex(String fileLocation){
 		try {
 			FileInputStream streamIn = new FileInputStream(fileLocation);
 			ObjectInputStream objectinputstream = new ObjectInputStream(streamIn);
