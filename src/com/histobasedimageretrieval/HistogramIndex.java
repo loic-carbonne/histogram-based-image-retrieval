@@ -29,7 +29,7 @@ public class HistogramIndex implements Serializable{
 	 * Construct an index from a serialized file
 	 * @param fileLocation the serialized file
 	 */
-	HistogramIndex(String fileLocation){
+	public HistogramIndex(String fileLocation){
 		try {
 			FileInputStream streamIn = new FileInputStream(fileLocation);
 			ObjectInputStream objectinputstream = new ObjectInputStream(streamIn);
