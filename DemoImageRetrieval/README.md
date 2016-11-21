@@ -1,4 +1,4 @@
-# histogram-based-image-retrieval/DemoImageRetrieval
+# DemoImageRetrieval
 This demo project is a website using the library histogram-based-image-retrieval
 
 It shows :
@@ -10,14 +10,14 @@ It contain a directory with a base of 10 000 images.
 Buit with Spring Boot and Bootstrap
 
 - To start the server and the website :
-'''
+```
 ./mvnw install:install-file -Dfile=src/main/resources/histogram-based-image-retrieval.jar -DgroupId=img-retrieval -DartifactId=com.histobasedimageretrieval -Dversion=1.0 -Dpackaging=jar
-'''
+```
 - Generate the jar :
-'''
+```
 ./mvnw package
-'''
+```
 - Run :
-'''
+```
 java -jar target/demo-0.0.1-SNAPSHOT.jar
-'''
+```
