@@ -9,7 +9,7 @@ It contain a directory with a base of 10 000 images.
 
 Buit with Spring Boot and Bootstrap
 
-- To start the server and the website :
+- Adding histogram-based-image-retrieval.jar to your maven repository
 ```
 ./mvnw install:install-file -Dfile=src/main/resources/histogram-based-image-retrieval.jar -DgroupId=img-retrieval -DartifactId=com.histobasedimageretrieval -Dversion=1.0 -Dpackaging=jar
 ```
